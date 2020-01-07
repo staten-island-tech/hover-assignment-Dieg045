@@ -13,7 +13,7 @@ body {
   //text-align: center;
   margin: 0 auto;
   //width: 60rem;
-  height: 60rem;
+  height: 80rem;
   width: 40rem;
 }
 
@@ -52,4 +52,13 @@ body {
 .gallery:hover .pd6-photo:not(:hover) {
   transform: scale(0.5);
   opacity: 0.3;
+}
+
+.gallery2 {
+  position: relative;
+}
+
+.ball {
+  height: 10rem;
+
 }

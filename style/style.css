@@ -12,7 +12,7 @@ body {
 
 .gallery-parent {
   margin: 0 auto;
-  height: 60rem;
+  height: 80rem;
   width: 40rem;
 }
 
@@ -54,5 +54,13 @@ body {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0.3;
+}
+
+.gallery2 {
+  position: relative;
+}
+
+.ball {
+  height: 10rem;
 }
 /*# sourceMappingURL=style.css.map */
