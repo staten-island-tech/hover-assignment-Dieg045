@@ -58,9 +58,39 @@ body {
 
 .gallery2 {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80rem;
 }
 
 .ball {
   height: 10rem;
+}
+
+.galeria {
+  position: absolute;
+  top: 50rem;
+  left: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pichu {
+  height: 30rem;
+  visibility: hidden;
+}
+
+.ball:hover {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+}
+
+.ball:active {
+  visibility: hidden;
+}
+
+.ball:active .pichu {
+  visibility: visible;
 }
 /*# sourceMappingURL=style.css.map */
