@@ -80,9 +80,11 @@ body {
   transform: scale(3);
 }
 
-.ball:active {
+.ball:active .pichu {
   visibility: hidden;
-  .pichu {
-    visibility: visible;
-  }
+
+}
+
+.gallery2:hover .pichu:not(:hover){
+  visibility: visible;
 }

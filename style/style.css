@@ -86,11 +86,11 @@ body {
           transform: scale(3);
 }
 
-.ball:active {
+.ball:active .pichu {
   visibility: hidden;
 }
 
-.ball:active .pichu {
+.gallery2:hover .pichu:not(:hover) {
   visibility: visible;
 }
 /*# sourceMappingURL=style.css.map */
