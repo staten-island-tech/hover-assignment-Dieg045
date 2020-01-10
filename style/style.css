@@ -86,11 +86,12 @@ body {
           transform: scale(3);
 }
 
-.ball:active .pichu {
+.ball:active {
   visibility: hidden;
 }
 
-.gallery2:hover .pichu:not(:hover) {
-  visibility: visible;
+.jokercomp {
+  position: absolute;
+  width: 40rem;
 }
 /*# sourceMappingURL=style.css.map */
