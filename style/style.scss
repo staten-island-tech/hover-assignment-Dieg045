@@ -94,5 +94,8 @@ body {
 .jokercomp {
   position: absolute;
   width: 40rem;
+}
 
+.jokercomp:hover {
+  transform: translate(-10rem, 0)
 }
