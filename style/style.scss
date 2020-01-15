@@ -91,11 +91,12 @@ body {
 
 //////////////@extend
 
-.jokercomp {
+.jokeranime {
   position: absolute;
   width: 40rem;
+  transition: 1s;
 }
 
-.jokercomp:hover {
-  transform: translate(10rem, 20rem)
+.jokeranime:hover {
+  transform: translate(10rem, 20rem);
 }

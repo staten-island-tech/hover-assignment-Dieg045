@@ -90,8 +90,15 @@ body {
   visibility: hidden;
 }
 
-.jokercomp {
+.jokeranime {
   position: absolute;
   width: 40rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.jokeranime:hover {
+  -webkit-transform: translate(10rem, 20rem);
+          transform: translate(10rem, 20rem);
 }
 /*# sourceMappingURL=style.css.map */
