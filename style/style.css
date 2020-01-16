@@ -13,7 +13,10 @@ body {
 .gallery-parent {
   margin: 0 auto;
   height: 80rem;
-  width: 40rem;
+  width: 60rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .gallery {
@@ -58,9 +61,6 @@ body {
 
 .gallery2 {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 80rem;
 }
 
@@ -74,11 +74,6 @@ body {
   left: 50%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-.pichu {
-  height: 30rem;
-  visibility: hidden;
 }
 
 .ball:hover {
