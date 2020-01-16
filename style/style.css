@@ -8,6 +8,7 @@ html {
 
 body {
   text-align: center;
+  height: 300vh;
 }
 
 .gallery-parent {
@@ -86,7 +87,6 @@ body {
 }
 
 .jokeranime {
-  position: absolute;
   width: 40rem;
   height: 60rem;
   -webkit-transition: 1s;
@@ -96,5 +96,10 @@ body {
 .jokeranime:hover {
   -webkit-transform: translate(0, 20rem);
           transform: translate(0, 20rem);
+}
+
+.hovereffect3:hover {
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
 }
 /*# sourceMappingURL=style.css.map */

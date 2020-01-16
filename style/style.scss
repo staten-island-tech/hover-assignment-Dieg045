@@ -7,6 +7,7 @@ html {
 
 body {
   text-align: center;
+  height: 300vh;
 }
 
 .gallery-parent {
@@ -79,15 +80,7 @@ body {
   visibility: hidden;
 }
 
-
-//.pichu:not(:active) {
- // visibility: visible;
-//}
-
-//////////////@extend
-
 .jokeranime {
-  position: absolute;
   width: 40rem;
   height: 60rem;
   transition: 1s;
@@ -97,6 +90,6 @@ body {
   transform: translate(0, 20rem);
 }
 
-//.hovereffect3 {
- // position: 
-//}
+.hovereffect3:hover {
+  transform: rotate(1turn);
+}
