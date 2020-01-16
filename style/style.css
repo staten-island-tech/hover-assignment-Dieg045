@@ -93,12 +93,13 @@ body {
 .jokeranime {
   position: absolute;
   width: 40rem;
+  height: 60rem;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
 .jokeranime:hover {
-  -webkit-transform: translate(10rem, 20rem);
-          transform: translate(10rem, 20rem);
+  -webkit-transform: translate(0, 20rem);
+          transform: translate(0, 20rem);
 }
 /*# sourceMappingURL=style.css.map */

@@ -94,9 +94,11 @@ body {
 .jokeranime {
   position: absolute;
   width: 40rem;
+  height: 60rem;
   transition: 1s;
 }
 
 .jokeranime:hover {
-  transform: translate(10rem, 20rem);
+  transform: translate(0, 20rem);
 }
+
