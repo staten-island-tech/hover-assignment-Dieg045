@@ -8,7 +8,7 @@ html {
 
 body {
   text-align: center;
-  height: 300vh;
+  height: 400vh;
 }
 
 .gallery-parent {
@@ -98,8 +98,45 @@ body {
           transform: translate(0, 20rem);
 }
 
+.hovereffect3 {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 .hovereffect3:hover {
   -webkit-transform: rotate(1turn);
           transform: rotate(1turn);
+}
+
+.flowers {
+  height: 40rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.flowers:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.flowers:active {
+  -webkit-filter: blur(10px) grayscale(100%);
+          filter: blur(10px) grayscale(100%);
+}
+
+.orange {
+  height: 50rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.orange:hover {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.orange:active {
+  -webkit-clip-path: circle(15% at 70% 65%);
+          clip-path: circle(15% at 70% 65%);
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,13 +7,11 @@ html {
 
 body {
   text-align: center;
-  height: 300vh;
+  height: 400vh;
 }
 
 .gallery-parent {
-  //text-align: center;
   margin: 0 auto;
-  //width: 60rem;
   height: 80rem;
   width: 60rem;
   align-items: flex-start;
@@ -90,6 +88,36 @@ body {
   transform: translate(0, 20rem);
 }
 
+.hovereffect3 {
+  transition: all 1s;
+}
+
 .hovereffect3:hover {
   transform: rotate(1turn);
+}
+
+.flowers {
+  height: 40rem;
+  transition: all 0.5s;
+}
+
+.flowers:hover {
+  filter: grayscale(100%);
+}
+
+.flowers:active {
+  filter: blur(10px) grayscale(100%);
+}
+
+.orange {
+  height: 50rem;
+  transition: all 0.7s;
+}
+
+.orange:hover {
+  filter: blur(10px);
+}
+
+.orange:active {
+  clip-path: circle(15% at 70% 65%);
 }
