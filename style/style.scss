@@ -121,3 +121,14 @@ body {
 .orange:active {
   clip-path: circle(15% at 70% 65%);
 }
+
+.animationObject {
+  height: 40rem;
+}
+
+.pichu {
+  position: relative;
+  left: 200rem;
+  z-index: -1;
+  animation: 3s ease-in 1s 1 both running slidein;
+}
